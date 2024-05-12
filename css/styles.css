@@ -22,8 +22,9 @@ body {
 
 #card {
 
+    width: 90vw; /* Ajustar el ancho al 90% del viewport width */
+    max-width: 400px; /* Establecer un máximo de 400px para mantener la proporción 16:9 */
     position: relative;
-
     perspective: 3000px;
 
 }
